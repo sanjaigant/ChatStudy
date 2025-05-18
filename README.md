@@ -105,7 +105,7 @@ print(s.getsockname())
 print(s.recv(1024).decode()) 
 s.send("acknowledgement recived from the server".encode())
 ```
-##OUTPUT
+## OUTPUT
 CLIENT
 ![image](https://github.com/user-attachments/assets/d583ec86-ad79-4f4d-9cfa-6df069a12329)
 
